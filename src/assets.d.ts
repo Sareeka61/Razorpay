@@ -1,0 +1,37 @@
+declare module '../assets' {
+    export const benefitIcon1: string;
+    export const benefitIcon2: string;
+    export const benefitIcon3: string;
+    export const benefitImage2: string;
+    export const chromecast: string;
+    export const disc02: string;
+    export const discord: string;
+    export const discordBlack: string;
+    export const facebook: string;
+    export const figma: string;
+    export const file02: string;
+    export const framer: string;
+    export const homeSmile: string;
+    export const instagram: string;
+    export const notification2: string;
+    export const notification3: string;
+    export const notification4: string;
+    export const notion: string;
+    export const photoshop: string;
+    export const plusSquare: string;
+    export const protopie: string;
+    export const raindrop: string;
+    export const recording01: string;
+    export const recording03: string;
+    export const roadmap1: string;
+    export const roadmap2: string;
+    export const roadmap3: string;
+    export const roadmap4: string;
+    export const searchMd: string;
+    export const slack: string;
+    export const sliders04: string;
+    export const telegram: string;
+    export const twitter: string;
+    export const yourlogo: string;
+  }
+  

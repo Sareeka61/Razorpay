@@ -1,9 +1,3 @@
-import React from 'react';
-
-interface BracketsProps {
-  position: 'left' | 'right';
-}
-
 const brackets = (position: 'left' | 'right'): JSX.Element => (
   position === 'left' ? (
     <svg

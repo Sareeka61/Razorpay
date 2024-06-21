@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { useLocation } from "react-router-dom";
 import { disablePageScroll, enablePageScroll } from "scroll-lock";
-
 import RazorpayLogo from "../assets/RazorpayLogo.svg";
 import { navigation } from "../constants";
 import Button from "./Button";

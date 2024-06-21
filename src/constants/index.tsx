@@ -1,40 +1,36 @@
-import {
-  benefitIcon1,
-  benefitIcon2,
-  benefitIcon3,
-  benefitIcon4,
-  benefitImage2,
-  chromecast,
-  disc02,
-  discord,
-  discordBlack,
-  facebook,
-  figma,
-  file02,
-  framer,
-  homeSmile,
-  instagram,
-  notification2,
-  notification3,
-  notification4,
-  notion,
-  photoshop,
-  plusSquare,
-  protopie,
-  raindrop,
-  recording01,
-  recording03,
-  roadmap1,
-  roadmap2,
-  roadmap3,
-  roadmap4,
-  searchMd,
-  slack,
-  sliders04,
-  telegram,
-  twitter,
-  yourlogo,
-} from "../assets";
+import benefitIcon1 from "../assets/benefits/icon-1.svg";
+import benefitIcon2 from "../assets/benefits/icon-2.svg";
+import benefitIcon3 from "../assets/benefits/icon-3.svg";
+import chromecast from "../assets/chrome-cast.svg";
+import disc02 from "../assets/disc-02.svg";
+import discord from "../assets/socials/discord.svg";
+import facebook from "../assets/socials/facebook.svg";
+import figma from "../assets/collaboration/figma.png";
+import file02 from "../assets/file-02.svg";
+import framer from "../assets/collaboration/framer.png";
+import homeSmile from "../assets/home-smile.svg";
+import instagram from "../assets/socials/instagram.svg";
+import notification2 from "../assets/notification/image-2.png";
+import notification3 from "../assets/notification/image-3.png";
+import notification4 from "../assets/notification/image-4.png";
+import notion from "../assets/collaboration/notion.png";
+import photoshop from "../assets/collaboration/photoshop.png";
+import plusSquare from "../assets/plus-square.svg";
+import protopie from "../assets/collaboration/protopie.png";
+import raindrop from "../assets/collaboration/raindrop.png";
+import recording01 from "../assets/recording-01.svg";
+import recording03 from "../assets/recording-03.svg";
+import roadmap1 from "../assets/roadmap/image-1.png";
+import roadmap2 from "../assets/roadmap/image-2.png";
+import roadmap3 from "../assets/roadmap/image-3.png";
+import roadmap4 from "../assets/roadmap/image-4.png";
+import searchMd from "../assets/search-md.svg";
+import slack from "../assets/collaboration/slack.png";
+import sliders04 from "../assets/sliders-04.svg";
+import telegram from "../assets/socials/telegram.svg";
+import twitter from "../assets/socials/twitter.svg";
+import yourlogo from "../assets/yourlogo.svg";
+
 
 interface NavigationItem {
   id: string;
@@ -315,7 +311,7 @@ export const benefits: BenefitItem[] = [
     text: "Find all popular platform SDKs, plugin, server integrations in our integration stack.",
     backgroundUrl: "assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
-    imageUrl: benefitImage2,
+    imageUrl: benefitIcon1,
   },
   {
     id: "1",
@@ -323,7 +319,7 @@ export const benefits: BenefitItem[] = [
     text: "Comprehensive documentation to build powerful payment solutions.",
     backgroundUrl: "assets/benefits/card-2.svg",
     iconUrl: benefitIcon2,
-    imageUrl: benefitImage2,
+    imageUrl: benefitIcon2,
     light: true,
   },
   {
@@ -332,7 +328,7 @@ export const benefits: BenefitItem[] = [
     text: "Receive real-time notifications for all payment related transactions and events.",
     backgroundUrl: "assets/benefits/card-3.svg",
     iconUrl: benefitIcon3,
-    imageUrl: benefitImage2,
+    imageUrl: benefitIcon3,
   },
 ];
 
@@ -344,12 +340,6 @@ interface SocialItem {
 }
 
 export const socials: SocialItem[] = [
-  {
-    id: "0",
-    title: "Discord",
-    iconUrl: discordBlack,
-    url: "#",
-  },
   {
     id: "1",
     title: "Twitter",

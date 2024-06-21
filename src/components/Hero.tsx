@@ -1,6 +1,6 @@
 import React from "react";
 import { Section } from "./Section";
-import { curve } from "../assets";
+import curve from "../assets/hero/curve.png";
 import Button from "./Button";
 import robotmachine from "../assets/robotmachine.png";
 
